@@ -28,14 +28,14 @@ export default {
 
 <style lang="scss" scoped>
 #centerLeft1 {
-  $box-width: 300px;
-  $box-height: 410px;
+  $box-width: 100%;
+  $box-height: 100%;
   padding: 16px;
   height: $box-height;
   min-width: $box-width;
   border-radius: 5px;
   .bg-color-black {
-    height: $box-height - 30px;
+    height: $box-height;
     border-radius: 10px;
   }
   .text {

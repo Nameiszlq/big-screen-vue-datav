@@ -3,6 +3,8 @@ import App from './App.vue';
 import router from './router';
 import store from './store';
 import dataV from '@jiaminghi/data-view';
+import VCharts from 'v-charts'
+Vue.use(VCharts)
 import axios from 'axios';
 // 引入全局css
 import './assets/scss/style.scss';
@@ -13,7 +15,9 @@ import 'vue-awesome/icons/chart-area.js';
 import 'vue-awesome/icons/chart-pie.js';
 import 'vue-awesome/icons/chart-line.js';
 import 'vue-awesome/icons/align-left.js';
-
+import VueParticles from 'vue-particles'
+Vue.use(VueParticles)
+Vue.prototype.$axios = axios
 //引入echart
 //4.x 引用方式
 import echarts from 'echarts'

@@ -29,7 +29,7 @@ export default {
 </script>
 
 <style lang="scss" class>
-$box-height: 520px;
+$box-height: 320px;
 $box-width: 100%;
 #bottomRight {
   padding: 14px 16px;

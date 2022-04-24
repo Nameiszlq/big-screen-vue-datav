@@ -6,7 +6,7 @@
           <icon name="chart-bar" class="text-icon"></icon>
         </span>
         <div class="d-flex">
-          <span class="fs-xl text mx-2">气象数据曲线图</span>
+          <span class="fs-xl text mx-2">环境数据曲线图</span>
         </div>
       </div>
       <div>
